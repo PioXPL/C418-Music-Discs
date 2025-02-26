@@ -14,4 +14,4 @@ public class MusicDisc implements ModInitializer {
 	public void onInitialize() {
 		ModItems.initialize();
 	}
-}
+} 
