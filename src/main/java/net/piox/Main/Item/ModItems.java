@@ -14,7 +14,6 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item ARIA_MATH = register("aria_math", Item::new, new Item.Settings());
-
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
 
         // Create the item key
