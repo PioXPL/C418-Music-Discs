@@ -17,9 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ARIA_MATH))
                     .displayName(Text.translatable("itemgroup.musicdisc.aria_math_group"))
                     .entries((displayContext, entries) -> {
-
                         entries.add(ModItems.ARIA_MATH);
-
                     })
                     .build());
 
